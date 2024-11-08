@@ -1,0 +1,31 @@
+.whay {
+    background-image: url(../img/img_9.svg);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    width: 729px;
+    height: 383px;
+    display: none;
+    padding-bottom: 150px;
+}
+
+
+@media screen and (min-width:768px) {
+    .whay{
+        display: block;
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 48px;
+    }
+}
+@media screen and (min-width:1240px) {
+    .whay{
+        display: block;
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 74px;
+        width: 1240px;
+        height: 453px;
+        padding-top: 67px;
+    }
+}

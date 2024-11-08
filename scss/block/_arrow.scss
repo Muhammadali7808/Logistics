@@ -1,0 +1,128 @@
+.arrow_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 30px;
+}
+
+.arr_titles {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.arr_tayoq {
+    display: none;
+}
+
+.arr_text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+    margin-top: 16px;
+    width: 266px;
+}
+
+.arr_img {
+    display: none;
+}
+.arrow{
+    padding-bottom: 64px;
+}
+
+.arrow_item {
+    fill: #fff;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    width: 310px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    padding-left: 27px;
+    padding-bottom: 25px;
+    padding-right: 24px;
+    padding-top: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .arr_tayoq {
+        display: block;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        border: 3px solid #ffce50;
+        width: 92px;
+        height: 0px;
+    }
+    .arrow{
+        padding-bottom: 88px;
+    }
+
+    .arrow_item {
+        fill: #fff;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+        width: 693px;
+        padding-bottom: 48px;
+        padding-left: 85px;
+        padding-right: 76px;
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arr_text {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+        width: 531px;
+    }
+
+    .arrow_list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arrow_title {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        color: #363738;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width:1240px) {
+    .arr_img {
+        display: block;
+    }
+    .arrow{
+        padding-bottom: 120px;
+    }
+    .arrow_item {
+        fill: #fff;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+        width: 1183px;
+        padding-left: 96px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        gap: 56px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arrow_title {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+    }
+}

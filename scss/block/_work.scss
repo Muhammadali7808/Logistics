@@ -1,0 +1,143 @@
+.work_inner_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: #363738;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.work {
+    padding-bottom: 120px;
+}
+
+.work_inner_text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+    margin-bottom: 24px;
+}
+
+.work_text_2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 135%;
+    color: #363738;
+    margin-bottom: 11px;
+}
+
+.works {
+    border: 3px solid #ffce50;
+    width: 86px;
+    height: 0px;
+}
+
+.work_coment {
+    border-radius: 10px;
+    width: 325px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.coment_2 {
+    margin-left: 24px;
+}
+
+.work_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 24px;
+}
+
+.work_text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+    margin-bottom: 32px;
+}
+
+.work_foto {
+    width: 325px;
+    height: 222px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .work_title {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        color: #363738;
+        margin-bottom: 32px;
+    }
+
+    .work_text {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+        width: 647px;
+        margin-bottom: 40px;
+    }
+
+    .work_foto {
+        width: 690px;
+        height: 270px;
+    }
+
+
+    .works {
+        margin-bottom: 40px;
+    }
+
+    .work_coment {
+        border-radius: 10px;
+        width: 690px;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+        background: #fff;
+    }
+}
+
+@media screen and (min-width:1240px) {
+    .work_foto {
+        width: 373px;
+        height: 247px;
+    }
+
+    .work_content {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .work_text {
+        width: 667px;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+    }
+
+    .work_coment {
+        border-radius: 10px;
+        width: 373px;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+        background: #fff;
+    }
+}
